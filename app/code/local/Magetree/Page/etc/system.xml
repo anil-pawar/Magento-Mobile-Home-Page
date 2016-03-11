@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <web>
+            <groups>
+                <default>
+                    <fields>
+                        <cms_home_page_ua_regexp translate="comment" module="magetree_page" >
+                            <label></label>
+                            <frontend_model>magetree_page/adminhtml_system_config_cms_home_page</frontend_model>
+                            <backend_model>adminhtml/system_config_backend_serialized_array</backend_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </cms_home_page_ua_regexp>
+                    </fields>
+                </default>
+            </groups>
+        </web>
+    </sections>
+</config>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magetree_Page>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends />
+        </Magetree_Page>
+    </modules>
+</config>

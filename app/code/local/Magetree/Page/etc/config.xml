@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Magetree_Page>
+            <version>1.0.0</version>
+        </Magetree_Page>
+    </modules>
+
+    <global> 
+        <models>
+            <magetree_page>
+                <class>Magetree_Page_Model</class>             
+            </magetree_page>
+        </models>
+        <helpers>
+            <magetree_page>
+                <class>Magetree_Page_Helper</class>
+            </magetree_page>
+        </helpers>
+         <blocks>
+            <magetree_page>
+                <class>Magetree_Page_Block</class>
+            </magetree_page>
+        </blocks>
+    </global>
+    <frontend>
+        <routers>
+            <cms>
+                <args>
+                    <modules>
+                        <Magetree_Page before="Mage_Cms">Magetree_Page</Magetree_Page>
+                    </modules>
+                </args>
+            </cms>
+        </routers>
+    </frontend>
+</config>
